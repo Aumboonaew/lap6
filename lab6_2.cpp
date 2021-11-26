@@ -13,12 +13,12 @@ double rad2deg(double rad){
 
 double findXComponent(double l1, double l2, double a1, double a2){
 
-    return l1*cos(a1) + l2*cos(a2);
+    return l1*cos(a1) + l2*sin(a2);
 }
 
 double findYComponent(double l1, double l2, double a1, double a2){
 
-    return l1*sin(a1) + l2*sin(a2);
+    return l1*sin(a1) + l2*cos(a2);
 }
 
 double pythagoras(double xcomp, double ycomp){
