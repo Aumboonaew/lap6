@@ -2,8 +2,7 @@
 using namespace std;
 
 int main(){
-    int a,b,d;
-    int c = 0;
+    int a,b,d,c;
 
     do{
         cout << "Enter an integer: ";
